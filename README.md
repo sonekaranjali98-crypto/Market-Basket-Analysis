@@ -1,4 +1,4 @@
-# Market Basket Analysis using Apriori Algorithm
+# "Market Basket Analysis using Apriori Algorithm"
 
 ## Project Overview
 
@@ -31,7 +31,7 @@ Each transaction includes items purchased together by customers.
 | Transaction | Unique transaction ID |
 | Item | Product purchased |
 
-### Example
+ "Example"
 
 | Transaction | Item |
 |-------------|------|
@@ -40,7 +40,7 @@ Each transaction includes items purchased together by customers.
 | 1 | Butter |
 | 2 | Beer |
 
-Dataset Source:
+[Dataset Source:]
 - Kaggle Grocery Dataset
 
 
@@ -58,7 +58,7 @@ Dataset Source:
 
 ## Algorithms Used
 
-### Apriori Algorithm
+## Apriori Algorithm
 
 The Apriori Algorithm is used to identify frequent itemsets in transactional datasets.
 
@@ -71,13 +71,13 @@ The algorithm generates:
 
 ### Metrics Used
 
-#### Support
+## Support
 Measures how frequently an itemset appears in the dataset.
 
 #### Confidence
 Measures how often items in Y appear in transactions containing X.
 
-#### Lift
+## Lift
 Measures the strength of association between products.
 
 
@@ -104,8 +104,6 @@ Example:
 | 1 | 0 | 1 |
 
 
----
-
 ## Visualizations
 
 The project includes:
@@ -127,16 +125,16 @@ These visualizations help understand customer purchasing patterns.
 
 ## Business Recommendations
 
-### Cross-Selling
+## Cross-Selling
 Products frequently bought together should be recommended together.
 
-### Store Layout Optimization
+## Store Layout Optimization
 Associated products should be placed close to each other.
 
-### Combo Offers
+## Combo Offers
 Businesses can create discount combos for strongly associated products.
 
-### Inventory Planning
+## Inventory Planning
 Frequently purchased products should maintain higher stock levels.
 
 
@@ -162,7 +160,7 @@ The generated rules can help businesses improve:
 
 ## How to Run the Project
 
-### Step 1
+## Step 1
 Clone the repository
 
 ```bash
